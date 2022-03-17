@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Online Shopping | Goel Store</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1{
+                font-size: 90px;
+                font-style: italic;
+                color: orange;
+
+
+
+
+
+            }
+
+
+            h4{
+                font-size: 40px;
+            }
+
+            body{
+                margin-top: 20px;
+                margin-left: 20px;
+                background-image: url('imgBack.jpg');
+                background-repeat: no-repeat;                     
+                background-attachment: fixed;
+                background-size:cover;
+            }
+            table{
+                padding: 20px;
+            }
+            th,td{
+                font-size: 30px;
+
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1 style="text-align: center;"><u>BEST SHOP</u></h1>
+
+        <div>            
+            <h4><u>PLEASE ENTER YOUR DETAILS</u></h4>
+
+            <form name="UserDetailForm" action="userdata">
+                <table>
+                    <tr>
+                        <th>User Type-</th>
+                        
+                        <td>      EMPLOYEE-
+                    <input  type="checkbox" name="utype" value="employee" checked />
+
+                    <br>
+                    CUSTOMER-
+                    <input type="checkbox" name="utype" value="customer" /></td>
+                    </tr>
+                    <tr>
+
+                        <th>ContactNo-</th>
+
+                        <td><input type="text" name="Contactno" value="" size="35" /></td>
+                    </tr>
+
+                    <tr>
+                        <th>User Name-</th>
+                        <td><input type="text" name="uname" value="" size="35" /></td>
+                    </tr>
+
+                    <tr>
+                        <th>Password-</th>
+                        <td><input type="password" name="password" value="" size="35" /></td>
+                    </tr>
+                    <tr>
+                    <th>SUBMIT-</th>
+                    <td><input type="submit" value="submit" name="submit" /></td>
+                    
+
+                </table>
+
+
+
+            </form> 
+        </div>
+    </body>
+</html>

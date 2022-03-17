@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ADD PRODUCT DETAILS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-image: url('productpage.jpg');
+                background-repeat: no-repeat;                     
+                background-attachment: fixed;
+                background-size:cover;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            li {
+                float: right;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color: #111;
+            }
+
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a  href="showproduct">SHOW </a></li>
+
+        </ul>
+
+
+        <form name="product" action="product" enctype="multipart/form-data" method="POST">
+            <table border="2" cellspacing="30" cellpadding="10">
+                <thead>
+
+                    ADD PRODUCT DETAILS
+
+                </thead>
+
+
+                <tr>
+                    <th>              PRODUCT ID:
+                    </th>
+                    <td>      <input type="text" name="productid" value="" size="50" /></td>
+                </tr>
+                <tr>
+                    <th>                 PRODUCT NAME:
+                    </th>
+                    <td>            <input type="text" name="productname" value="" size="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>            PRODUCT BRAND:
+                    </th>
+                    <td>            <input type="text" name="brandname" value="" size="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>            PRODUCT SIZE:
+                    </th>
+                    <td>            <input type="text" name="size" value="" size="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>            PRODUCT PRICE:
+                    </th>
+                    <td>            <input type="text" name="price" value="" size="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>            PRODUCT QUANTITY:
+                    </th>
+                    <td>            <input type="text" name="quantity" value="" size="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>            PRODUCT CATEGORY
+                    </th>
+                    <td>            <input type="text" name="category" value="" size="50" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>            PRODUCT IMAGE:
+                    </th>
+                    <td>            <input type="file" name="image" />  
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="ADD PRODUCT"/>
+                    </td>
+                </tr>
+                </tabel>
+        </form>
+    </body>
+</html>
